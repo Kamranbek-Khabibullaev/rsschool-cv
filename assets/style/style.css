@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  scroll-behavior: smooth;
+  font-family: "Montserrat" sans-serif;
+  font-style: normal;
+}
+/* Navigation styles */
+body {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.main_navigation {
+  background-color: #333333f3;
+  width: 100%;
+}
+
+.main_navigation__items {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+.main_navigation li a {
+  float: left;
+  display: block;
+  color: #c2cdcf;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.main_navigation li a:hover {
+  color: #bfb43c;
+  cursor: pointer;
+}
+/* About me styles */
+.about_me__section {
+  max-width: 1140px;
+  width: 100%;
+  margin: 5px auto;
+  margin-top: 30px;
+}
+.about_me {
+  border-bottom: 8px solid #5050503f;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 45px;
+}
+.about_me__photo img {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+  box-shadow: 0 1px 10px rgb(0 0 0 / 60%);
+  filter: grayscale(0.2) brightness(1.05);
+  border-radius: 150px;
+  cursor: pointer;
+}
+h2 {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #333333f3;
+  margin-bottom: 10px;
+}
+h1 {
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #505050f3;
+  margin-bottom: 10px;
+}
+a {
+  text-decoration: none;
+  color: #505050f3;
+  font-weight: 600;
+}
+a:hover {
+  text-decoration: none;
+  color: #9c9c9cf3;
+}
+.about_me__info li {
+  padding-top: 10px;
+}
+/* Summary styels */
+.summary_section p {
+  padding: 10px;
+}
+/* skills styles */
+.skills-item {
+  list-style: circle;
+  list-style-type: circle;
+  padding: 5px;
+}
+/* Footer styles */
+.footer_container {
+  background-color: #333333f3;
+  padding: 15px 0 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-width: calc(100vw - 20px);
+  color: #c2cdcf;
+}
+.about_me {
+  border-bottom: 2px solid #5050503f;
+}
+.footer_container > a {
+  color: #c2cdcf;
+}
+.footer_container > a:hover {
+  color: #000000;
+}
+.rss {
+  width: 121px;
+  height: 45px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
